@@ -118,7 +118,7 @@ button i {
   margin-right: 10px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 650px) {
   .container {
     width: 100%;
     padding: 2em 2em 0;
@@ -137,9 +137,9 @@ button i {
   .img-container img {
     width: 100%;
     max-width: 400px;
-    max-height: 300px;
+    max-height: 250px;
     border-radius: 20px 20px 0 0;
-
+    object-fit: cover;
   }
 
   .product-description {
@@ -148,6 +148,7 @@ button i {
     max-height: 600px;
     max-width: 400px;
   }
+  
 }
 
 @media (max-width: 293px) {
